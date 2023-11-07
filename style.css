@@ -1,0 +1,293 @@
+.aside{
+    padding-left: 0.5rem;
+    margin-left: 80px;
+    text-align: center;
+    float: left;
+    border: 2px double white;
+    border-radius: 50px;
+    font-style: italic;
+    padding: 25px 5px;
+}
+
+
+main{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+
+.head{
+    height: 46px;
+    width: 46px;
+    padding-left: 0px;
+}
+
+
+.main{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+}
+
+.main1{
+    text-align: left;
+    margin-left: 80px;
+    margin-right: 15px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.main2{
+    text-align: right;
+    margin-right: 80px;
+}
+
+
+.main3{
+    text-align: center;
+}
+
+
+.main4{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+
+.nav{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.button{
+    border-radius: 100px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+    margin-right: 75px;
+    text-align: center;
+    background: radial-gradient(rgb(255, 255, 255), rgb(155, 155, 155));
+    color: #000000;
+    flex-direction: row;
+    padding: 5px 40px;
+    cursor: pointer;
+    border: 2px solid  rgb(31, 31, 31);;
+    box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    transition: all 150ms ease-in-out;
+}
+
+.button:hover {
+    transition: .5s;
+    background-color: #000000;
+    color: #ffffff;
+    background: radial-gradient(rgb(72, 72, 72), rgb(182, 182, 182));
+    box-shadow: 0 0 10px 4px rgb(182, 182, 182);
+}
+
+
+
+
+.button1{
+    border-radius: 100px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    background: radial-gradient(rgb(255, 255, 255), rgb(155, 155, 155));
+    color: #000000;
+    flex-direction: row;
+    cursor: pointer;
+    border: 3px solid  rgb(31, 31, 31);;
+    box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    transition: all 150ms ease-in-out;
+}
+
+.button1:hover {
+    transition: .5s;
+    background-color: #000000;
+    color: #ffffff;
+    background: radial-gradient(rgb(72, 72, 72), rgb(182, 182, 182));
+    box-shadow: 0 0 10px 4px rgb(182, 182, 182);
+}
+
+
+
+
+
+.container {
+    display: block;
+    width: auto;
+    height: auto;
+    margin-right: 40px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.img{
+    width: 800px;
+    height: 400px; 
+}
+
+.wrap{
+        text-align: center;
+        border: 500px;
+}
+.picture {
+    position: relative;
+    float: left;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.body{
+    background:radial-gradient(rgb(58, 58, 58),black);
+    color: #fff;
+}
+
+
+
+
+
+.link{
+    color: rgb(21, 239, 57);
+}
+
+.text{
+    border-radius: 10px;
+    text-align: left;
+}
+.text_r{
+    border-radius: 10px;
+    text-align: right;
+}
+
+.h{
+    text-align: center;
+    font-weight: bold;
+}
+
+.h1{
+    text-align: right;
+    font-style: italic;
+}
+
+
+
+.left{
+    width: 20%;
+    border-radius: 25px;
+    background: none;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    display: block;
+}   
+
+
+.center{
+    display: inline-block;
+    width: 70%;
+    padding: 15px;
+    background:none;
+}
+
+.full{
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    background:none;
+}
+
+
+.article{
+    display: inline-block;
+    border-radius: 50px;
+    text-align: left;
+    color: white;
+}
+
+.article_right{
+    display: inline-block;
+    border-radius: 50px;
+    text-align: right;
+    color: white;
+}
+
+
+.calc1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255)
+}
+
+
+.calc{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    color: rgb(255, 255, 255)
+}
+
+
+.title {
+    text-align: justify;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',Georgia, 'Times New Roman', Times, serif 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.k{
+    width: 450px;
+    height: 350px;
+}
+
+footer{
+    background: none;
+    text-align: right;
+    padding-right: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ffffff5f;
+}
+
+
+
+
+
+
+
+.div{
+    display: block;
+}
+
+
+.calculator{
+    display: inline-block;
+    padding-left: 0.5rem;
+    margin-left: 80px;
+    text-align: center;
+    border: 2px double white;
+    border-radius: 50px;
+    font-style: italic;
+    color: #29627e;
+    padding: 25px 5px;
+}
+
+.calculator1{
+    display: inline-block;
+    padding-left: 0.5rem;
+    margin-right: 80px;
+    text-align: center;
+    border: 2px double white;
+    border-radius: 50px;
+    font-style: italic;
+    color: #29627e;
+    padding: 25px 5px;
+}
+
+
