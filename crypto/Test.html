@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sometype+Mono&display=swap" rel="stylesheet">
+    <title>Crypto</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <a class="picture"><img class="head" src="bitcoin.png"></a>
+        <h1 class="h1 txt">Crypto</h1>
+    </div>
+    <nav class="nav">
+        <button class="button" onclick ="document.location='Home.html'">HOME</button>
+        <button class="button" onclick ="document.location='Info.html'">Info</button>
+        <button class="button" onclick ="document.location='Methods.html'">Methods</button>
+        <button class="button" onclick ="document.location='Calculator.html'">Calculator</button>
+        <button class="button" onclick ="document.location='Test.html'">Test</button>
+        <button class="button" onclick ="document.location='Author.html'">Author</button>
+    </nav>
+    <main>
+        <div class="main3">
+            <article class="article">
+                <h3 class="h"> Який twitterscore в проекту Optimism</h3>
+                <ol>
+                    <li>A. Резонанс оригінальних інновацій</li>
+                    <li>B. Рентабельність інвестицій</li>
+                    <li>C. Рост обсягів інтеграції</li>
+                    <li>D. Реєстрація офіційних інвестицій</li>
+                    <li>E. Регулярна оцінка інновацій</li>
+                </ol>           
+                <table class="table">
+                    <tr>
+                        <td><label for="a1">A</label></td>
+                        <td><label for="a2">B</label></td>
+                        <td><label for="a3">C</label></td>
+                        <td><label for="a4">D</label></td>
+                        <td><label for="a5">E</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="question1" id="a1"></td>
+                        <td><input type="radio" name="question1" id="a2"></td>
+                        <td><input type="radio" name="question1" id="a3"></td>
+                        <td><input type="radio" name="question1" id="a4"></td>
+                        <td><input type="radio" name="question1" id="a5"></td>
+                    </tr>
+                </table>
+                <button class="button" id="btn1">Перевірка</button>
+                <script>
+                    btn1.addEventListener("click", function () {
+                        if (a2.checked) {
+                            btn1.className = "button_right";
+                            alert("Правильно!")
+                        } else {
+                            btn1.className = "button_wrong";
+                            alert("Спробуй ще!")
+                        }
+                    });
+                </script>
+            </article>
+        </div>
+        <div class="main4">
+            <article class="article">
+                <h3 class="h"> Розрахуйте повну капіталізацію</br> монети Arbitrum за ціни в 10 долларів</h3>
+                <ol>
+                    <li>A. $10 млрд.</li>
+                    <li>B. $50 млрд.</li>
+                    <li>C. $75 млрд.</li>
+                    <li>D. $100 млрд.</li>
+                    <li>E. $200 млрд.</li>
+                </ol>        
+                <table class="table">
+                    <tr>
+                        <td><label for="b1">A</label></td>
+                        <td><label for="b2">B</label></td>
+                        <td><label for="b3">C</label></td>
+                        <td><label for="b4">D</label></td>
+                        <td><label for="b5">E</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="question1" id="b1"></td>
+                        <td><input type="radio" name="question1" id="b2"></td>
+                        <td><input type="radio" name="question1" id="b3"></td>
+                        <td><input type="radio" name="question1" id="b4"></td>
+                        <td><input type="radio" name="question1" id="b5"></td>
+                    </tr>
+                </table>
+                <button class="button" id="btn2">Перевірка</button>  
+                <script>
+                    btn2.addEventListener("click", function () {
+                        if (b4.checked) {
+                            btn2.className = "button_right";
+                            alert("Правильно!")
+                        } else {
+                            btn2.className = "button_wrong";
+                            alert("Спробуй ще!")
+                        }
+                    });
+                </script> 
+            </article>
+        </div>
+        <div class="main4">
+            <article class="article">
+                <h3 class="h"> Якую буде ціна монети XRP</br>  якщо її капіталізація буде $10 млрд.</h3>
+                <ol>
+                    <li>A. $0,1</li>
+                    <li>B. $0,5</li>
+                    <li>C. $1</li>
+                    <li>D. $2</li>
+                    <li>E. $5</li>
+                </ol>        
+                <table class="table">
+                    <tr>
+                        <td><label for="с1">A</label></td>
+                        <td><label for="с2">B</label></td>
+                        <td><label for="с3">C</label></td>
+                        <td><label for="с4">D</label></td>
+                        <td><label for="с5">E</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="radio" name="question1" id="с1"></td>
+                        <td><input type="radio" name="question1" id="с2"></td>
+                        <td><input type="radio" name="question1" id="с3"></td>
+                        <td><input type="radio" name="question1" id="с4"></td>
+                        <td><input type="radio" name="question1" id="с5"></td>
+                    </tr>
+                </table>
+                <button class="button" id="btn3">Перевірка</button>  
+                <script>
+                    btn3.addEventListener("click", function () {
+                        if (с1.checked) {
+                            btn3.className = "button_right";
+                            alert("Правильно!")
+                        } else {
+                            btn3.className = "button_wrong";
+                            alert("Спробуй ще!")
+                        }
+                    });
+                </script> 
+            </article>
+        </div>
+    </main>
+    <footer>Copyrights ptotected</footer>
+
+    </div>
+</body>
+
+</html>
