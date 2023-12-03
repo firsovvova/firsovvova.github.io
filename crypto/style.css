@@ -66,19 +66,19 @@ main{
     font-weight: bold;
     display: inline-block;
     margin: 10px;
-    margin-right: 75px;
+    margin-right: 40px;
     text-align: center;
     background: radial-gradient(rgb(255, 255, 255), rgb(155, 155, 155));
     color: #000000;
     flex-direction: row;
-    padding: 5px 40px;
+    padding: 7px 40px;
     cursor: pointer;
     border: 2px solid  rgb(31, 31, 31);;
     box-shadow: 0 0 0 0 rgb(255, 255, 255);
     transition: all 150ms ease-in-out;
 }
 
-.button:hover {
+button:hover {
     transition: .5s;
     background-color: #000000;
     color: #ffffff;
@@ -86,9 +86,45 @@ main{
     box-shadow: 0 0 10px 4px rgb(182, 182, 182);
 }
 
+.button_wrong{
+    border-radius: 100px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+    margin-right: 40px;
+    text-align: center;
+    background: radial-gradient(rgb(255, 50, 50), rgb(173, 82, 82));
+    color: #000000;
+    flex-direction: row;
+    padding: 7px 40px;
+    cursor: pointer;
+    border: 2px solid  rgb(31, 31, 31);;
+    box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    transition: all 150ms ease-in-out;
+}
+.button_wrong:hover {
+    background: radial-gradient(rgb(211, 89, 89),rgb(163, 17, 17));
+}
 
-
-
+.button_right{
+    border-radius: 100px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+    margin-right: 40px;
+    text-align: center;
+    background: radial-gradient(rgb(14, 133, 47), rgb(88, 217, 101));
+    color: #000000;
+    flex-direction: row;
+    padding: 7px 40px;
+    cursor: pointer;
+    border: 2px solid  rgb(31, 31, 31);;
+    box-shadow: 0 0 0 0 rgb(255, 255, 255);
+    transition: all 150ms ease-in-out;
+}
+.button_right:hover {
+    background: radial-gradient(rgb(28, 174, 45),rgb(118, 196, 126));
+}
 .button1{
     border-radius: 100px;
     font-weight: bold;
@@ -103,17 +139,15 @@ main{
     transition: all 150ms ease-in-out;
 }
 
-.button1:hover {
-    transition: .5s;
-    background-color: #000000;
-    color: #ffffff;
-    background: radial-gradient(rgb(72, 72, 72), rgb(182, 182, 182));
-    box-shadow: 0 0 10px 4px rgb(182, 182, 182);
+
+
+ol{
+    list-style-type: none;
 }
 
-
-
-
+.table{
+    display: inline-block;
+}
 
 .container {
     display: block;
